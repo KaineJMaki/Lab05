@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+
+<TableView fx:id="table" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/javafx" xmlns="http://javafx.com/javafxml" fx:controller="com.example.studentrecords.StudentRecordsController">
+  <columns>
+    <TableColumn fx:id="sid" prefWidth="124.0" text="SID" />
+    <TableColumn fx:id="assignments" prefWidth="102.4000244140625" text="Assignments" />
+      <TableColumn fx:id="midterm" prefWidth="94.39996337890625" text="Midterm" />
+      <TableColumn fx:id="finalExam" prefWidth="91.20001220703125" text="Final Exam" />
+      <TableColumn fx:id="finalMark" prefWidth="83.20001220703125" text="Final Mark" />
+      <TableColumn fx:id="letterGrade" prefWidth="105.60003662109375" text="Letter Grade" />
+  </columns>
+</TableView>
